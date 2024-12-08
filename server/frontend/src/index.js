@@ -4,6 +4,7 @@ import App from './App';
 
 import { BrowserRouter } from "react-router-dom";
 
+// renders index.html which is the template referenced by the django proj
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
